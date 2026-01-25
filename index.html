@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Purna Bahadur Khatri - IT Professional, UI/UX Designer, and Web Developer specializing in modern web solutions">
+    <meta name="keywords" content="Web Developer, UI/UX Designer, IT Professional, HTML, CSS, JavaScript, Bootstrap">
+    <meta name="author" content="Purna Bahadur Khatri">
+    <title>Purna Bahadur Khatri | Web Developer & UI/UX Designer</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom Css  -->
+     <link rel="stylesheet" href="css/style.css">
+
+     <!--  Fav Icon  -->
+       <link rel="icon" href="assets/images/profile_photo.png">
+
+    
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar  navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Purna <span class="text-danger">Khatri</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse  navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link m-3" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link m-3" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link m-3" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link m-3" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link m-3" href="#achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link m-3" href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                        <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+                            <i class="bi bi-moon-fill" id="themeIcon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/9829839069" target="_blank" class="whatsapp-btn" title="Chat on WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+    </a>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 hero-content">
+                    <p class="text-primary fw-bold mb-2">Hello, I'm</p>
+                    <h1>Purna Bahadur Khatri</h1>
+                    <p class="lead">IT Professional | UI/UX Designer | Web Developer</p>
+                    <p class="tagline">Passionate about creating intuitive digital experiences through clean code and thoughtful design. Transforming complex problems into elegant, user-friendly solutions.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#portfolio" class="btn btn-custom btn-primary-custom">View Portfolio</a>
+                        <a href="#contact" class="btn btn-custom btn-outline-custom">Contact Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                    <div class="hero-image-container">
+                        <div class="hero-image-ring"></div>
+                        <!-- Option 1: Upload your photo to /images/hero-photo.jpg -->
+                        <img src="assets/images/23.jpg" alt="Purna Bahadur Khatri" class="hero-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        
+                        <!-- Option 2: Placeholder (shown if image fails to load) -->
+                        <div class="hero-image-placeholder" style="display: none;">
+                            <i class="bi bi-person"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding about-section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>About Me</h2>
+                <p>Get to know my background and educational journey</p>
+            </div>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0 fade-in text-center">
+                    <!-- Option 1: Upload your photo to /images/about-photo.jpg -->
+                    <div class="about-img-container">
+                        <img src="assets/images/profile_photo.png" alt="About Purna" class="about-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        
+                        <!-- Option 2: Placeholder (shown if image fails to load) -->
+                        <div class="about-img-placeholder" style="display: none;">
+                            <i class="bi bi-person-badge"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7 fade-in">
+                    <div class="about-content">
+                        <h3 class="mb-4">Passionate about Technology & Design</h3>
+                        <p class="mb-4">I am a dedicated IT professional with a solid background in web development and UI/UX design. My professional journey began in Nepal and has continued in the UAE, where I have further strengthened my ability to design and develop meaningful digital experiences..</p>
+
+                        <p class="mb-4">With expertise in modern web technologies and a strong sense of visual design, I effectively combine technical functionality with aesthetic appeal. I am passionate about continuous learning and consistently stay updated with emerging tools, trends, and best practices in the industry.</p>
+
+                        <p>My goal is to contribute to innovative and impactful projects while continuously growing as a professional in IT, UI/UX design, and web development.</p>
+                    </div>
+                    
+                    <h4 class="mb-4 mt-5">Education</h4>
+                    
+                    <div class="education-card">
+                        <h4>Bachelor (BSc) in Computing – Data Analytics</h4>
+                        <p class="school">Britts Imperial University College, Sharjah, UAE</p>
+                        <p class="year"><i class="bi bi-calendar3 me-2"></i>2023 – 2025</p>
+                    </div>
+                    
+                    <div class="education-card">
+                        <h4>Diploma in IT</h4>
+                        <p class="school">Saraswati Secondary School, Bharatpur, Dang, Nepal</p>
+                        <p class="year"><i class="bi bi-calendar3 me-2"></i>2018 – 2023</p>
+                    </div>
+
+                     <div class="education-card">
+                        <h4>10 <sup>th</sup></h4>
+                        <p class="school">Shree Nepal Rastraya Secondary School Banphikot-07, Rukum West  Nepal</p>
+                        <p class="year"><i class="bi bi-calendar3 me-2"></i>2018  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Technical Skills</h2>
+                <p>Technologies and tools I work with</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 fade-in">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-filetype-html"></i>
+                        </div>
+                        <h4>HTML5</h4>
+                        <p class="text-muted mb-3">Semantic markup & accessibility</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" data-width="95%"></div>
+                        </div>
+                        <small class="text-muted mt-2 d-block">95%</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 fade-in">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-filetype-css"></i>
+                        </div>
+                        <h4>CSS3</h4>
+                        <p class="text-muted mb-3">Responsive design & animations</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" data-width="90%"></div>
+                        </div>
+                        <small class="text-muted mt-2 d-block">90%</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 fade-in">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-filetype-js"></i>
+                        </div>
+                        <h4>JavaScript</h4>
+                        <p class="text-muted mb-3">Interactive functionality</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" data-width="85%"></div>
+                        </div>
+                        <small class="text-muted mt-2 d-block">85%</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 fade-in">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-bootstrap"></i>
+                        </div>
+                        <h4>Bootstrap</h4>
+                        <p class="text-muted mb-3">Rapid responsive development</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" data-width="92%"></div>
+                        </div>
+                        <small class="text-muted mt-2 d-block">92%</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 fade-in">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-layout-text-window-reverse"></i>
+                        </div>
+                        <h4>UI/UX Design</h4>
+                        <p class="text-muted mb-3">User-centered design</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" data-width="88%"></div>
+                        </div>
+                        <small class="text-muted mt-2 d-block">88%</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 fade-in">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-palette"></i>
+                        </div>
+                        <h4>Graphic Design</h4>
+                        <p class="text-muted mb-3">Visual communication</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" data-width="85%"></div>
+                        </div>
+                        <small class="text-muted mt-2 d-block">85%</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 fade-in">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-git"></i>
+                        </div>
+                        <h4>Git & GitHub</h4>
+                        <p class="text-muted mb-3">Version control</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" data-width="80%"></div>
+                        </div>
+                        <small class="text-muted mt-2 d-block">65%</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 fade-in">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-database"></i>
+                        </div>
+                        <h4>Data Analytics</h4>
+                        <p class="text-muted mb-3">Data visualization</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%" data-width="75%"></div>
+                        </div>
+                        <small class="text-muted mt-2 d-block">60%</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding portfolio-section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>My Portfolio</h2>
+                <p>Recent projects showcasing my skills</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <!-- Upload image to /images/project1.jpg -->
+                            <img src="assets/images/educations.jpg" alt="E-ducation Platform m" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="portfolio-img-placeholder" style="display: none;">
+                                <i class="bi bi-shop"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <i class="bi bi-eye text-white" style="font-size: 3rem;"></i>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h4>Modern Educational Platform Landing Page UI Design</h4>
+                            <p>"Engaging landing page showcasing modern educational platform UI.".</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Figma</span>
+                                <span class="tech-badge">Adobe Photoshop</span>
+                                
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="https://www.behance.net/gallery/230901905/Modern-Educational-Platform-Landing-Page-UI-Design" target="_blank" class="btn-demo">Live Demo</a>
+                                <!-- <a href="#" class="btn-github">GitHub</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <!-- Upload image to /images/project2.jpg -->
+                            <img src="assets/images/food.jpg" alt="food hub " class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="portfolio-img-placeholder" style="display: none;">
+                                <i class="bi bi-kanban"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <i class="bi bi-eye text-white" style="font-size: 3rem;"></i>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h4>FoodHub – Modern Food Delivery Website UI Design</h4>
+                            <p>"Modern, user-friendly UI design for seamless food delivery experience."</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Figma</span>
+                                <span class="tech-badge">Adobe XD</span>
+                                <span class="tech-badge">Adobe Photoshop</span>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="https://www.behance.net/gallery/232238879/FoodHub-Modern-Food-Delivery-Website-UI-Design" target="_blank" class="btn-demo">Live Demo</a>
+                                <!-- <a href="#" class="btn-github">GitHub</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <!-- Upload image to /images/project3.jpg -->
+                            <img src="assets/images/bank.png" alt="Data Dashboard" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="portfolio-img-placeholder" style="display: none;">
+                                <i class="bi bi-graph-up-arrow"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <i class="bi bi-eye text-white" style="font-size: 3rem;"></i>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h4>Mero Bank App UI (Login & Onboarding Flow)</h4>
+                            <p>"Intuitive login and onboarding UI design for Mero Bank app.""</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Figma</span>
+                                <span class="tech-badge">Adobe Photoshop</span>
+                                <span class="tech-badge">Adobe XD</span>
+                                
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="https://www.behance.net/gallery/232547177/Day-1-Mero-Bank-App-UI-(Login-Onboarding-Flow) " target="_blank" class="btn-demo">Live Demo</a>
+                                <!-- <a href="#" class="btn-github">GitHub</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <!-- Upload image to /images/project4.jpg -->
+                            <img src="assets/images/Beauty Cosmetics.png" alt="Beauty Cosmetics" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="portfolio-img-placeholder" style="display: none;">
+                                <i class="bi bi-person-workspace"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <i class="bi bi-eye text-white" style="font-size: 3rem;"></i>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h4>Beauty Cosmetics</h4>
+                            <p>Beauty Cosmetics website built using PHP, HTML, CSS, and JavaScript, offering elegant design, dynamic features, and seamless user experience.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">PHP</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">MySQL</span>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="#" class="btn-demo">Live Demo</a>
+                                <a href="https://github.com/Purnaofficial12/cosmetic_shop" target="_blank" class="btn-github">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <!-- Upload image to /images/project5.jpg -->
+                            <img src="assets/images/portfolio.png" alt="personal news" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="portfolio-img-placeholder" style="display: none;">
+                                <i class="bi bi-calendar-check"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <i class="bi bi-eye text-white" style="font-size: 3rem;"></i>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h4>Personal-News-Portals</h4>
+                            <p>A personal news portal built with PHP, HTML, CSS, and JavaScript, enabling dynamic news management with a responsive user interface.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">Bootstrap</span>
+                                 <span class="tech-badge">PHP</span>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="#" class="btn-demo">Live Demo</a>
+                                <a href="https://github.com/Purnaofficial12/-Personal-News-Portals" target="_blank" class="btn-github">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <!-- Upload image to /images/project6.jpg -->
+                            <img src="assets/images/digital.png" alt="Chat Interface UI" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="portfolio-img-placeholder" style="display: none;">
+                                <i class="bi bi-chat-dots"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <i class="bi bi-eye text-white" style="font-size: 3rem;"></i>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h4>modern E-Commerce Electronics Shop UII</h4>
+                            <p>"Modern, sleek UI design for an electronics e-commerce store.""</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Adobe Photoshop</span>
+                                <span class="tech-badge">Figma</span>
+                                <span class="tech-badge">Adobe XD</span>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="https://www.behance.net/gallery/233990051/modern-E-Commerce-Electronics-Shop-UI" target="_blank" class="btn-demo">Live Demo</a>
+                                <a href="#" class="btn-github">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section-padding">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Achievements & Certifications</h2>
+                <p>Professional development and recognitions</p>
+            </div>
+            
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-5 fade-in">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="bi bi-award"></i>
+                        </div>
+                        <h4>UI/UX Design Certificate</h4>
+                        <p class="issuer">Coursera</p>
+                        <p class="text-muted mt-2">Comprehensive training in user interface and user experience design principles, including wireframing, prototyping, and usability testing.</p>
+                        <button class="btn-show-certificate" onclick="openCertificate('certificate1')">
+                            <i class="bi bi-eye"></i> Show Certificate
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-5 fade-in">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="bi bi-palette2"></i>
+                        </div>
+                        <h4>Graphic Design Training</h4>
+                        <p class="issuer">Boon Academy</p>
+                        <p class="text-muted mt-2">Intensive training in graphic design fundamentals, visual communication, and modern design tools and techniques.</p>
+                        <button class="btn-show-certificate" onclick="openCertificate('certificate2')">
+                            <i class="bi bi-eye"></i> Show Certificate
+                        </button>
+                    </div>
+                </div>
+
+                 <div class="col-md-6 col-lg-5 fade-in">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h4>Web Design</h4>
+                        <p class="issuer">Code IT </p>
+                        <p class="text-muted mt-2">Intensive training in web design fundamentals, visual communication, responsive layout principles, and modern design tools and techniques for creating user-friendly and visually engaging website</p>
+                        <button class="btn-show-certificate" onclick="openCertificate('certificate3')">
+                            <i class="bi bi-eye"></i> Show Certificate
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modals -->
+    <div id="certificateModal" class="certificate-modal" onclick="closeCertificate(event)">
+        <div class="certificate-content" onclick="event.stopPropagation()">
+            <button class="certificate-close" onclick="closeCertificate()">
+                <i class="bi bi-x-lg"></i>
+            </button>
+            <img id="certificateImage" src="" alt="Certificate" class="certificate-img">
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding contact-section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Get In Touch</h2>
+                <p>Let's discuss your next project</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-7 fade-in">
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" novalidate>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                                <div class="invalid-feedback">Please enter your name.</div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="john@example.com" required>
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                                <div class="invalid-feedback">Please enter your message.</div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-submit">Send Message &nbsp;<i class="bi bi-send"></i></button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="col-lg-5 fade-in">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div>
+                                <h5>Email</h5>
+                                <p>purnakhatri630@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div>
+                                <h5>Location</h5>
+                                <p>Kathmandu, Nepal </p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-briefcase"></i>
+                            </div>
+                            <div>
+                                <h5>Availability</h5>
+                                <p>Open to internships & entry-level positions</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h5>WhatsApp</h5>
+                                <p>+977 9829839069, 9700050298</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/pbkhatri/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://github.com/OfficialPurna12" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+                             <a href="https://github.com/OfficialPurna12" target="_blank" title="Facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="mailto:purnakhatri.design630@gmail.com" title="Email"><i class="bi bi-envelope-fill"></i></a>
+                            <a href="https://www.instagram.com/purn.akhatri/" target="_blank" title="Twitter"><i class="bi bi-instagram"></i></a>
+                             <a href="https://www.behance.net/purnabkhatri34" target="_blank" title="bi-behance"><i class="bi bi-behance"></i></a>
+                            <a href="https://wa.me/9829839069" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Purna Bahadur Khatri. All Rights Reserved. | Designed with <i class="bi bi-heart-fill text-danger"></i> <span class="text-decoration-underline ">Purna Bahadur Khatri</span> </p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="bi bi-arrow-up"></i>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+ <script src="js/script.js"></script>
+</body>
+</html>
