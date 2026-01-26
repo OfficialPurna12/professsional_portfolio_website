@@ -5,7 +5,7 @@ A modern, responsive, and professional portfolio website built with HTML5, CSS3,
 ![Portfolio Preview](images/preview.png)
 
 ## 🚀 Live Demo
-[View Live Site](https://yourusername.github.io/portfolio) <!-- Update with your actual link -->
+[View Live Site](https://www.purnakhatri.com.np/) <!-- Update with your actual link -->
 
 ## ✨ Features
 
